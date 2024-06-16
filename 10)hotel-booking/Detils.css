@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+nav {
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    border-bottom-style: outset;
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 1rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .nav__logo {
+    padding-left: 26px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-dark);
+  }
+  
+  .nav__links {
+    padding-right: 35px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    --text-light: #767268
+  }
+  
+  .link a {
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--text-light);
+    transition: 0.3s;
+  }
+  
+  .link a:hover {
+    color: var(--primary-color);
+  }
+
+
+.back-button{
+    margin-left: 10px;  
+    width: 41px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0.33em 1.2em rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+.back-button i{
+    font-size: 30px;
+    
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+
+}
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+#box{
+    margin: 50px;
+    width: 100%;
+    height: 45%;
+    display: flex;
+    background-color: white;
+}
+
+#box img{
+    width: 25%;
+    border-radius: 2rem;
+}
+
+.date-input{
+    padding-left: 10%;
+    padding-top: 15px;
+    display: flex;
+    --text-light: #767268
+}
+.date-input .check-in{
+    height: 58px;
+    background-color: #ffffff;
+    padding: 5px 5px;
+    border-radius: 4px;
+    box-shadow: 0 0.93em 1.25em rgba(0,0,0,0.3);
+}
+
+.date-input .check-out{
+    margin-left: 11px;
+    background-color: #ffffff;
+    padding: 5px 5px;
+    border-radius: 4px;
+    box-shadow: 0 0.93em 1.25em rgba(0,0,0,0.3);
+}
+.date-input .guest{
+    margin-left: 11px;
+    background-color: #ffffff;
+    padding: 5px 7px;
+    border-radius: 4px;
+    box-shadow: 0 0.93em 1.25em rgba(0,0,0,0.3);
+   
+
+}
+
+
+.sum-sub{
+    border: var(--bui_border_width_100) solid var(--bui_color_border);
+
+}
+
+
+.book-now{
+    position: absolute;
+    top: 53%;
+    left: 68%;
+}
+
+#book{
+    background-color: rgb(214 86 236 / 10%);
+    cursor: pointer;
+    width: 23vh;
+    font-size: 4vh;
+    border-radius: 8px;
+    box-shadow: 0 0.93em 1.25em rgba(0,0,0,0.3);
+
+}
+h2{
+    margin: 2%;
+    padding-left: 3%;
+}
+.overview{
+    margin: 3%;
+    padding: 1px;
+    display: flex;
+}
+.overview span{
+    margin: 15px;
+}
+.overview img{
+    margin-top: 6px;
+}
+.overview h2{
+    display:inline-table;
+}
+.overview .amenities1{
+    padding-left: 7%;
+}
+.overview .amenities2{
+    padding-left: 10%;
+}
+
+
+
+
+#content{
+    padding-top: 11px;
+    padding-left: 5%;
+    display: flex;
+    
+    flex-direction: column;
+    width: 40%;
+}
+
+
+
+
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 9%;
+}
+.container .gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-gap: 30px;
+}
+
+.container .gallery img{
+    width: 103%;
+    padding: 0px;
+    border-radius: 5%;
+    transition: 2s;
+   
+}
+.gallery img:hover{
+    transform: scale(1.1);
+}
+
+
+
+.client {
+    background-color: rgb(246, 243, 243);
+  }
+
+  .section__header {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    text-align: center;
+}
+.section__container {
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 5rem 1rem;
+}
+  
+  .client__grid {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+  .client__card {
+    padding: 2rem;
+    background-color: var(--white);
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .client__card img {
+    max-width: 80px;
+    margin-left: 35%;
+    margin-bottom: 1rem;
+    border-radius: 100%;
+  }
+  
+  .client__card p {
+    text-align: center;
+    color: var(--text-dark);
+  }
+
+
+  /* book Now      CSS   (BILL.HTML)*/
+
+/* h1{
+    margin: 7vh 90vh 7vh 95vh;
+} */
+/* h3{
+    margin: 10px 80% 10px 62px;
+    font-size: 18px;
+} */
+.container{
+    
+}
+.name{
+
+}
+.name .input{
+
+}
+.container{
+    
+}

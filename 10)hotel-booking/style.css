@@ -1,0 +1,123 @@
+/* style.css */
+body {
+    font-family: Arial, sans-rif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 50%;
+    margin: 5% auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select, button {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#reservationForm{
+    padding-left: 2vh;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.payment-details {
+    display: none;
+
+}
+#sub{
+ position:absolute ;
+ width: 10%;
+ top: 134%;
+ left: 45%;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.bill-label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+.bill-info {
+    margin: 5px 0;
+}
+.total {
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+#bill{
+    display: none;
+}
+.adult{
+    margin: 5px;
+    display: ruby-text;
+}
+.children{
+    display: ruby-text;
+}
+#values{
+    position: absolute;
+    top: 88%;
+    height: 23vh;
+    width: 20%;
+    left: 54%;
+    background: #ffffff;
+    margin-top: 44px;
+    border-radius: 8px;
+    box-shadow: 0 0.93em 1.25em rgba(0,0,0,0.3);
+ 
+}
+.sum-sub{
+    display: flex;
+}
+.valuedadd{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+h5{
+    cursor: pointer;
+    padding: 2px;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 16px;
+    width: 25px;
+    border: 2px solid rgb(104, 117, 228);
+    background-color: rgb(104, 117, 228);
+}
+pre{
+    font: 400;
+    font-weight: 700;
+}
